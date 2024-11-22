@@ -1,6 +1,6 @@
 # This python file is a collection of basic functions that are used in the syncopation models. 
 
-import math
+from . import math
 
 # The concatenation function is used to concatenate two sequences.
 def concatenate(seq1,seq2):
