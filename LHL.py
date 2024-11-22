@@ -3,8 +3,8 @@ Author: Chunyang Song
 Institution: Centre for Digital Music, Queen Mary University of London
 '''
 
-from basic_functions import concatenate, repeat, subdivide, ceiling, get_rhythm_category
-from parameter_setter import are_parameters_valid
+from .basic_functions import concatenate, repeat, subdivide, ceiling, get_rhythm_category
+from .parameter_setter import are_parameters_valid
 
 
 # Each terminal node contains two properties: its node type (note or rest) and its metrical weight.
